@@ -4,20 +4,11 @@
 </div>
 <nav id="main-nav">
   <ul>
-    <% for (var i in theme.menu){ %>
-      <li><a href="<%- theme.menu[i] %>"><%= i %></a></li>
-    <% } %>
+    <li><a href="https://twitter.com/15lettermax"><i class="fa fa-twitter fa-2x"></i></a></li>
+    <li><a href="https://gitub.com/cafreeman"><i class="fa fa-github fa-2x"></i></a></li>
+    <li><a href="https://www.linkedin.com/pub/chris-freeman/28/248/2ba"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+    <li><a href="/archives/"><i class="fa fa-archive fa-2x"></i></a></li>
   </ul>
   <div class="clearfix"></div>
 </nav>
-<div class="clearfix"></div>
-<div class="alignleft" style="margin-top: 15px">
-<% if(theme.twitter.username){ %>
-  <a href="https://twitter.com/<%- theme.twitter.username %>" class="twitter-follow-button" data-show-count="false">Follow @<%= theme.twitter.username %></a>
-<% } %>
-<% if(theme.github.username){ %>
-  <iframe src="http://ghbtns.com/github-btn.html?user=<%- theme.github.username %>&type=follow"
-  allowtransparency="true" frameborder="0" scrolling="0" width="132" height="20"></iframe>
-<% } %>
-</div>
 <div class="clearfix"></div>
